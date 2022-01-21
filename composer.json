@@ -1,5 +1,5 @@
 {
-    "name": "sndsabin/module-orderconfirmationstatus",
+    "name": "sndsabin/module-orderconfirmationemailstatus",
     "description": "This module adds a column in the sales order grid showing the status of the order confirmation email.",
     "type": "magento2-module",
     "license": "GPL-3.0",
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "SNDSABIN\\OrderConfirmationStatus\\": ""
+            "SNDSABIN\\OrderConfirmationEmailStatus\\": ""
         }
     }
 }
