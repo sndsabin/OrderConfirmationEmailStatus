@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <plugin name="SNDSABIN_orderconfirmationemailstatus_orders_grid_add_emailsent_data_to_orders_grid"
+                type="SNDSABIN\OrderConfirmationEmailStatus\Plugin\AddEmailSentDataToOrdersGrid"
+                sortOrder="10"
+                disabled="false"/>
+    </type>
+</config>

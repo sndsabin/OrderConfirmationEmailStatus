@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_columns">
+        <column name="is_email_sent"
+                class="SNDSABIN\OrderConfirmationEmailStatus\Ui\Component\Listing\Column\OrderConfirmationEmail\Status">
+            <settings>
+                <filter>select</filter>
+                <options class="SNDSABIN\OrderConfirmationEmailStatus\Model\Source\OrderConfirmationEmail\Status"/>
+                <label translate="true">Order Confirmation Email Status</label>
+                <bodyTmpl>ui/grid/cells/html</bodyTmpl>
+                <dataType>select</dataType>
+                <visible>true</visible>
+                <sortable>false</sortable>
+            </settings>
+        </column>
+    </columns>
+</listing>
