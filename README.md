@@ -29,7 +29,7 @@ This module adds a column in the sales order grid showing the status of the orde
  - Flush the cache by running `php bin/magento cache:flush`
 
 ## License
-[GPL](LICENSE)
+[GPL](LICENSE.txt)
 
 ##### Uppercase Vendor Name 😛 ?
 Yes 😄
